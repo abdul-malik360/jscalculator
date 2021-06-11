@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2px;
+  margin: 10px;
+  width: 30%;
+  height: 50%;
+  border: 2px green solid;
+}
+
+.entry_display {
+  background-color: transparent;
+  border: 2px blue solid;
+  padding: 50px;
+  margin: 20px;
+  width: 50%;
+}
+.buttons {
+  background-color: transparent;
+  border: 2px black solid;
+  padding: 50px;
+  width: 50%;
+}
