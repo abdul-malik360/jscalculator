@@ -24,9 +24,15 @@
   margin: 20px;
   width: 50%;
 }
-.buttons {
+/* .buttons {
   background-color: transparent;
   border: 2px black solid;
   padding: 50px;
   width: 50%;
+} */
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
