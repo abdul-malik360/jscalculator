@@ -3,11 +3,11 @@ function choose(characer) {
 }
 
 function result() {
-  let text = document.getElementsByClassName("entry_display").value;
+  let text = document.getElementsByClassName("entry-display")[0].value;
   let answer = eval(text);
-  document.getElementsByClassName("entry_display").value = answer;
+  document.getElementsByClassName("entry-display")[0].value = answer;
 }
 
-function clear() {
-  document.getElementsByClassName("entry_display").value = " ";
+function clearEntry() {
+  document.getElementsByClassName("entry-display")[0].value = "";
 }

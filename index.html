@@ -9,33 +9,37 @@
   </head>
   <body>
     <div class="calculator">
-      <input class="entry-display" type="text" />
+      <input class="entry-display" type="text" disabled />
       <div class="buttons">
+        <div class="clearbtn">
+          <button class="btns" onclick="clearEntry()">c</button>
+        </div>
         <div class="row">
-          <button onclick="choose(7)">7</button>
-          <button onclick="choose(8)">8</button>
-          <button onclick="choose(9)">9</button>
+          <button class="btns" onclick="choose(7)">7</button>
+          <button class="btns" onclick="choose(8)">8</button>
+          <button class="btns" onclick="choose(9)">9</button>
+          <button class="btns" onclick="choose('*')">x</button>
           <!-- <button onclick="click()" >+/-</button> -->
         </div>
         <div class="row">
-          <buttonon onclick="choose(4)">4</buttonon>
-          <button onclick="choose(5)">5</button>
-          <button onclick="choose(6)">6</button>
-          <button onclick="choose(*)">x</button>
-          <button onclick="choose(/)">/</button>
+          <button class="btns" onclick="choose(4)">4</button>
+          <button class="btns" onclick="choose(5)">5</button>
+          <button class="btns" onclick="choose(6)">6</button>
+          
+          <button class="btns" onclick="choose('/')">/</button>
         </div>
         <div class="row">
-          <button onclick="choose(1)">1</button>
-          <button onclick="choose(2)">2</button>
-          <button onclick="choose(3)">3</button>
-          <button onclick="choose(-)">-</button>
+          <button class="btns" onclick="choose(1)">1</button>
+          <button class="btns" onclick="choose(2)">2</button>
+          <button class="btns" onclick="choose(3)">3</button>
+          <button class="btns" onclick="choose('-')">-</button>
         </div>
         <div class="row">
-          <button onclick="clear()">c</button>
-          <button onclick="choose(0)">0</button>
-          <button onclick="choose(.)">.</button>
-          <button onclick="choose()">+</button>
-          <button onclick="result()">=</button>
+          
+          <button class="btns" onclick="choose(0)">0</button>
+          <button class="btns" onclick="choose('.')">.</button>
+          <button class="btns" onclick="choose('+')">+</button>
+          <button class="btns" onclick="result('=')">=</button>
         </div>
       </div>
     </div>
