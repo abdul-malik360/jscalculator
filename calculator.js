@@ -1,13 +1,15 @@
-function choose(characer) {
-  document.getElementsByClassName("entry-display")[0].value += characer;
-}
+let entryDisplay = document.getElementsByClassName("entry-display");
 
-function result() {
-  let text = document.getElementsByClassName("entry-display")[0].value;
+const choose = (characer) => {
+  entryDisplay[0].value += characer;
+};
+
+const result = () => {
+  let text = entryDisplay[0].value;
   let answer = eval(text);
-  document.getElementsByClassName("entry-display")[0].value = answer;
-}
+  entryDisplay[0].value = answer;
+};
 
-function clearEntry() {
-  document.getElementsByClassName("entry-display")[0].value = "";
-}
+const clearEntry = () => {
+  entryDisplay[0].value = "";
+};

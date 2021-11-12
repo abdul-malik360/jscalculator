@@ -4,13 +4,17 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.container{
+.container {
   display: flex;
   justify-content: center;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(29,53,87,1) 46%, rgba(168,218,220,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(29, 53, 87, 1) 46%,
+    rgba(168, 218, 220, 1) 100%
+  );
   height: 100vh;
-  
 }
 .calculator {
   display: flex;
@@ -19,13 +23,11 @@
   align-items: center;
 
   background: radial-gradient(#a8dadc, #1d3557);
-  height: 40%;
-  width: 13%;
+  height: 50vh;
   margin-top: 10%;
   border-radius: 10px;
   border: 5px black solid;
   padding: 10px;
-  
 }
 
 .entry-display {
@@ -36,25 +38,23 @@
   width: 80%;
   border-radius: 5px;
 }
-.rows{
+.rows {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.buttons{
+.buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
   align-self: center;
   padding: 10px;
 }
-.btns{
-  
+.btns {
   background: linear-gradient(black, grey);
   color: white;
   padding: 5px;
   margin: 2px;
-
 }
 
 .rows {
@@ -63,7 +63,7 @@
   width: 100%;
 }
 
-.clearbtn{
+.clearbtn {
   display: flex;
   align-self: flex-end;
 }
