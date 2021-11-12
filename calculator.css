@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  font-size: 20px;
 }
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -23,11 +25,10 @@
   align-items: center;
 
   background: radial-gradient(#a8dadc, #1d3557);
-  height: 50vh;
-  margin-top: 10%;
+  /* height: 50vh;  */
+  width: 200px;
   border-radius: 10px;
   border: 5px black solid;
-  padding: 10px;
 }
 
 .entry-display {
@@ -66,4 +67,7 @@
 .clearbtn {
   display: flex;
   align-self: flex-end;
+}
+
+@media screen and (max-width: 600px) {
 }
